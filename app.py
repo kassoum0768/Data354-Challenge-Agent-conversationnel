@@ -52,6 +52,16 @@ def generate_response(user_question):
     response = cohere_model.invoke(prompt)
     return response.content
 
+# Message d'accueil affiché dès l'ouverture du chat
+WELCOME_MESSAGE = ("Bonjour et bienvenue ! \U0001F44B Je suis là pour vous fournir des réponses précises sur les articles "
+                   "publiés entre le 22 janvier 2024 et le 28 janvier 2024 à 8h sur le site de l'Agence Ecofin. "
+                   "Posez-moi vos questions sur l’actualité économique, financière et sectorielle. "
+                   "Comment puis-je vous aider aujourd’hui ?")
+
+@cl.on_chat_start
+async def on_chat_start():
+    await cl.Message(content=WELCOME_MESSAGE).send()
+
 # Gestionnaire d'événements pour Chainlit
 @cl.on_message
 async def on_message(message: cl.Message):
