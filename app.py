@@ -53,8 +53,8 @@ def generate_response(user_question):
     return response.content
 
 # Message d'accueil affiché dès l'ouverture du chat
-WELCOME_MESSAGE = ("Bonjour et bienvenue ! \U0001F44B Je suis là pour vous fournir des réponses précises sur les articles "
-                   "publiés entre le 22 janvier 2024 et le 28 janvier 2024 à 8h sur le site de l'Agence Ecofin. "
+WELCOME_MESSAGE = ("Bonjour et bienvenue ! \U0001F44B J'ai été developpé par KONE ZANA KASSOUM pour vous fournir des réponses précises sur les articles "
+                   "publiés entre le 22 janvier 2025 et le 28 janvier 2025 à 8h sur le site de l'Agence Ecofin. "
                    "Posez-moi vos questions sur l’actualité économique, financière et sectorielle. "
                    "Comment puis-je vous aider aujourd’hui ?")
 
