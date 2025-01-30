@@ -1,0 +1,7 @@
+chainlit
+langchain
+langchain-cohere
+sentence-transformers
+faiss-cpu
+cohere
+python-dotenv
