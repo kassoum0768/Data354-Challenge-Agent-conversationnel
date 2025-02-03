@@ -1,5 +1,6 @@
+datetime
+tqdm
 numpy==1.23.5
-pandas
 chainlit
 langchain
 langchain-cohere
@@ -7,6 +8,9 @@ sentence-transformers
 faiss-cpu
 cohere
 python-dotenv
-datetime
-tqdm
+requests
+bs4
+pandas
+transformers
+
 
