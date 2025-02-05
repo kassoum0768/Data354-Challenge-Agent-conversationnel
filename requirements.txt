@@ -1,6 +1,7 @@
 datetime
 tqdm
 numpy==1.23.5
+matplotlib
 chainlit
 langchain
 langchain-cohere
